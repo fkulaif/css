@@ -1,0 +1,34 @@
+/* *{
+    margin: 0;
+} */
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px, 0, 40px, 60px;
+    text-align: center;
+}
+
+/* blue colors for links too */ /* no underline */
+/* a {
+    color: inherit; 
+    text-decoration: inherit; 
+} */
+
+/* a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+} */
+
+article {
+    background-color: sandybrown;
+}
+ #post2{
+    background-color: aquamarine;
+    color: purple;
+    font-weight: 400;
+}
+#post2{
+    background-color: aquamarine;
+} 
+#post3{
+    background-color: blueviolet;
+} 
