@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice 2</title>
+    <style>
+        /* 
+    > Time for CSS practice 2, just follow these specs
+    > First, look at the HTML tab to see what elements we are working with, then...
+
+    > Create a selector for h1, then...
+        ☑️ center the h1 text
+*/
+h1 {
+    text-align: center; 
+   }
+   
+   /*
+       > Create a selector for the "box" class and add the following CSS
+           ☑️ center the text inside the boxes 
+           ☑️ add a border, 2px solid black
+           ☑️ top and bottom padding 20px, left and right 10px
+           ☑️ 20px margin on all 4 sides
+   */
+   .box {
+      text-align: center;
+      border: 2px solid black;
+      padding: 20px 10px;
+      margin: 20px;
+   }
+   
+   /*
+       > Now, create selectors for each individual box class (ex "box-1")
+           ☑️ make box 1 a nice shade of blue
+           ☑️ make box 2 a nice shade of red
+           ☑️ make box 3 a nice shade of green
+   */
+   .box-1 {
+     background-color: cornflowerblue;
+   }
+   .box-2 {
+     background-color: orangered;
+   }
+   .box-3 {
+     background-color: green;
+   }
+   
+   /*
+       > Add some margin on the "container" class
+           ☑️ Try 10vw!
+   */
+   .container {
+     margin: 10vw;
+   }
+    </style>
+</head>
+<body>
+    <!-- See style.css for specs -->
+    <h1>Boxes are great</h1>
+    <div class="container">
+        <div class="box box-1">Box 1</div>
+        <div class="box box-2">Box 2</div>
+        <div class="box box-3">Box 3</div>
+</div>
+</body>
+</html>
+
